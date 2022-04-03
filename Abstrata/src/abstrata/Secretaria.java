@@ -5,6 +5,7 @@ public class Secretaria extends Funcionario {
     private String agenda;
 
     public Secretaria(String agenda, String nome, double salario) {
+        super(nome, salario);
         this.agenda = agenda;
     }
 

@@ -4,7 +4,8 @@ public class Gerente extends Funcionario implements Autenticavel {
 
     private String setor;
 
-    public Gerente(String nome, String setor, double salario) {
+    public Gerente(String setor, String nome, double salario) {
+        super(nome, salario);
         this.setor = setor;
     }
 
