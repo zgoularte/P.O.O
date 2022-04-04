@@ -1,6 +1,7 @@
 package appHeranca;
 
 public class Pessoa {
+
     private int matricula;
     private String nome;
     private int idade;
@@ -34,8 +35,5 @@ public class Pessoa {
     public void setIdade(int idade) {
         this.idade = idade;
     }
-    
-    
-    
-    
+
 }
